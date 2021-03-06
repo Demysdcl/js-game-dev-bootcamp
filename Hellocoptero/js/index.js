@@ -359,11 +359,11 @@ function start() {
         "<div id='reinicia' onclick=reiniciaJogo()><h3>Jogar Novamente</h3></div>"
     );
   }
+}
 
-  function reiniciaJogo() {
-    somGameover.pause();
-    $("#fim").remove();
-    console.log("clicked");
-    start();
-  }
+function reiniciaJogo() {
+  somGameover.pause();
+  $("#fim").remove();
+  console.log("clicked");
+  start();
 }
